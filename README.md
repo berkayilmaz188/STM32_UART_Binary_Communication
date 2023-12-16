@@ -20,6 +20,8 @@ Bunun için queue içerisindeki mesaj verisini anlamlandıracak fonksiyon oluşt
 
 Daha sonrasında Mesaj verisi içerisindede parametre verisini alması hedeflendi ancak o kısmı yapmadım.
 
+Siz kendi amacınıza göre mesaj formatını ve verisini anlamlandırabilirsiniz.
+
 # Description English 
 
 Communication is intended to be done using binary instead of ASCII characters. Communication has been established with a specifically defined messaging format.
@@ -41,3 +43,5 @@ To better understand the structure I established, the goal was to control the LE
 For this purpose, a function was created to interpret the message data in the queue. If the message type is 0x01, it checks the LED status flag; if 0x02 is received, it activates the flag for controlling LED blink, and if 0x03 is received, it activates the flag for controlling LED with PWM.
 
 Later on, the goal was to extract parameter data from the message data, but I haven't implemented that part yet.
+
+You can interpret the message format and data according to your own purpose.
