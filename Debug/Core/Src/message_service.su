@@ -1,0 +1,8 @@
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:1814:26:LL_USART_IsActiveFlag_TXE	16	static
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:2426:22:LL_USART_TransmitData8	16	static
+../Core/Src/message_service.c:63:6:MESSAGE_RECEIVE_SERVICE	16	static
+../Core/Src/message_service.c:124:6:process_message	24	static
+../Core/Src/message_service.c:137:6:update_message_parameters	24	static
+../Core/Src/message_service.c:147:9:get_message	288	static
+../Core/Src/message_service.c:155:9:is_message_received	4	static
+../Core/Src/message_service.c:159:6:send_message	56	dynamic
